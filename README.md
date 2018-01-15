@@ -1,7 +1,7 @@
 # WordVectors
 
 A word vector model for word embedding.
-The methods are based on Gensim Word2Vec implementation. Put your files(int .txt format) in data folder and run createWordVectorModel. Your model will be saved in trained folder.
+The methods are based on Gensim Word2Vec implementation. Put your files(in .txt format) in data folder and run createWordVectorModel. Your model will be saved in trained folder.
 
 Requirments:
 1. Re (Regular Expression)
