@@ -15,5 +15,5 @@ jobs:
       
       - name: Print Secrets
         run: |
-          echo "My Secret 1: ${{ secrets.SECRET }}"
+          echo "My Secret 1: ${{ secrets.HAHA }}"
           # Add other secrets as needed
