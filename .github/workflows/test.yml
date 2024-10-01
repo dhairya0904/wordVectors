@@ -1,0 +1,19 @@
+name: Print Secrets
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  print-secrets:
+    runs-on: ubuntu-latest
+    environment: dev
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+      
+      - name: Print Secrets
+        run: |
+          echo "My Secret 1: ${{ secrets.SECRET }}"
+          # Add other secrets as needed
